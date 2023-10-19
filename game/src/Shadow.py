@@ -49,61 +49,28 @@ class Shadow:
     def move(self, lab):
         match self.direction:
             case "Up":
-                match lab.get_config()[self.position[0] - 1][self.position[1]]:
-                    case 0:
-                        lab.redact(self.position, 0)
-                        self.position = [self.position[0] - 1, self.position[1]]
-                        lab.redact(self.position, 2)
-                    case 3:
-                        lab.set_condition(2)
-                    case 5:
-                        lab.redact(self.position, 0)
-                        self.position = lab.random_position()
-                        lab.redact(self.position, 2)
-                    case _:
-                        self.random_direction()
+                self.specific_move(lab, (self.position[0] - 1, self.position[1]))
             case "Down":
-                match lab.get_config()[self.position[0] + 1][self.position[1]]:
-                    case 0:
-                        lab.redact(self.position, 0)
-                        self.position = [self.position[0] + 1, self.position[1]]
-                        lab.redact(self.position, 2)
-                    case 3:
-                        lab.set_condition(2)
-                    case 5:
-                        lab.redact(self.position, 0)
-                        self.position = lab.random_position()
-                        lab.redact(self.position, 2)
-                    case _:
-                        self.random_direction()
+                self.specific_move(lab, (self.position[0] + 1, self.position[1]))
             case "Left":
-                match lab.get_config()[self.position[0]][self.position[1] - 1]:
-                    case 0:
-                        lab.redact(self.position, 0)
-                        self.position = [self.position[0], self.position[1] - 1]
-                        lab.redact(self.position, 2)
-                    case 3:
-                        lab.set_condition(2)
-                    case 5:
-                        lab.redact(self.position, 0)
-                        self.position = lab.random_position()
-                        lab.redact(self.position, 2)
-                    case _:
-                        self.random_direction()
+                self.specific_move(lab, (self.position[0], self.position[1] - 1))
             case "Right":
-                match lab.get_config()[self.position[0]][self.position[1] + 1]:
-                    case 0:
-                        lab.redact(self.position, 0)
-                        self.position = [self.position[0], self.position[1] + 1]
-                        lab.redact(self.position, 2)
-                    case 3:
-                        lab.set_condition(2)
-                    case 5:
-                        lab.redact(self.position, 0)
-                        self.position = lab.random_position()
-                        lab.redact(self.position, 2)
-                    case _:
-                        self.random_direction()
+                self.specific_move(lab, (self.position[0], self.position[1] + 1))
+
+    def specific_move(self, lab, pos):
+        match lab.get_config()[pos[0]][pos[1]]:
+            case 0:
+                lab.redact(self.position, 0)
+                self.position = pos
+                lab.redact(self.position, 2)
+            case 3:
+                lab.set_condition(2)
+            case 5:
+                lab.redact(self.position, 0)
+                self.position = lab.random_position()
+                lab.redact(self.position, 3)
+            case _:
+                self.random_direction()
 
     def random_direction(self):
         while True:
