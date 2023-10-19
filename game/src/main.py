@@ -34,6 +34,8 @@ def main():
                     pg.quit()
                     sys.exit()
                 if event.type == pg.KEYDOWN:
+                    for shadow in shadows:
+                        shadow.think(lab.get_config(), player.get_position())
                     match event.key:
                         case pg.K_w:
                             player.move(lab, "Up")
