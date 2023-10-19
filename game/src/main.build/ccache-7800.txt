@@ -1,0 +1,412 @@
+[2023-10-13T22:50:15.372280 8512 ] === CCACHE 4.6 STARTED =========================================
+[2023-10-13T22:50:15.373280 19920] Config: (default) absolute_paths_in_stderr = false
+[2023-10-13T22:50:15.373280 19920] Config: (default) base_dir = 
+[2023-10-13T22:50:15.373280 19920] Config: (environment) cache_dir = C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-10-13T22:50:15.373280 19920] Config: (default) compiler = 
+[2023-10-13T22:50:15.373280 19920] Config: (default) compiler_check = mtime
+[2023-10-13T22:50:15.373280 19920] Config: (default) compiler_type = auto
+[2023-10-13T22:50:15.373280 19920] Config: (default) compression = true
+[2023-10-13T22:50:15.373280 19920] Config: (default) compression_level = 0
+[2023-10-13T22:50:15.373280 19920] Config: (default) cpp_extension = 
+[2023-10-13T22:50:15.373280 19920] Config: (default) debug = false
+[2023-10-13T22:50:15.373280 19920] Config: (default) debug_dir = 
+[2023-10-13T22:50:15.373280 19920] Config: (default) depend_mode = false
+[2023-10-13T22:50:15.373280 19920] Config: (default) direct_mode = true
+[2023-10-13T22:50:15.373280 19920] Config: (default) disable = false
+[2023-10-13T22:50:15.373280 19920] Config: (default) extra_files_to_hash = 
+[2023-10-13T22:50:15.373280 19920] Config: (default) file_clone = false
+[2023-10-13T22:50:15.373280 19920] Config: (default) hard_link = false
+[2023-10-13T22:50:15.373280 19920] Config: (default) hash_dir = true
+[2023-10-13T22:50:15.373280 19920] Config: (default) ignore_headers_in_manifest = 
+[2023-10-13T22:50:15.373280 19920] Config: (default) ignore_options = 
+[2023-10-13T22:50:15.373280 19920] Config: (default) inode_cache = false
+[2023-10-13T22:50:15.373280 19920] Config: (default) keep_comments_cpp = false
+[2023-10-13T22:50:15.373280 19920] Config: (default) limit_multiple = 0.8
+[2023-10-13T22:50:15.373280 19920] Config: (environment) log_file = C:\Users\Egor\IDEAPR~1\game\src\main.build\ccache-7800.txt
+[2023-10-13T22:50:15.373280 19920] Config: (default) max_files = 0
+[2023-10-13T22:50:15.373280 19920] Config: (default) max_size = 5.0G
+[2023-10-13T22:50:15.373280 19920] Config: (default) namespace = 
+[2023-10-13T22:50:15.373280 19920] Config: (default) path = 
+[2023-10-13T22:50:15.373280 19920] Config: (default) pch_external_checksum = false
+[2023-10-13T22:50:15.373280 19920] Config: (default) prefix_command = 
+[2023-10-13T22:50:15.373280 19920] Config: (default) prefix_command_cpp = 
+[2023-10-13T22:50:15.373280 19920] Config: (default) read_only = false
+[2023-10-13T22:50:15.373280 19920] Config: (default) read_only_direct = false
+[2023-10-13T22:50:15.373280 19920] Config: (default) recache = false
+[2023-10-13T22:50:15.373280 19920] Config: (default) reshare = false
+[2023-10-13T22:50:15.373280 19920] Config: (default) run_second_cpp = true
+[2023-10-13T22:50:15.373280 19920] Config: (default) secondary_storage = 
+[2023-10-13T22:50:15.373280 19920] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-10-13T22:50:15.373280 19920] Config: (default) stats = true
+[2023-10-13T22:50:15.373280 19920] Config: (default) stats_log = 
+[2023-10-13T22:50:15.373280 19920] Config: (default) temporary_dir = C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-10-13T22:50:15.373280 19920] Config: (default) umask = 
+[2023-10-13T22:50:15.381275 19920] Command line: C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\downloads\ccache\v4.6\ccache.exe C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\11.3.0-14.0.3-10.0.0-msvcrt-r3\mingw64\bin\gcc.exe -o __loader.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -DNUITKA_FILE_REFERENCE_ORIGINAL_MODE -IC:\Users\Egor\AppData\Local\Programs\Python\PYTHON~1\include -I. -IC:\Users\Egor\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\include -IC:\Users\Egor\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\static_src __loader.c
+ts.c
+[2023-10-13T22:50:15.390272 19920] Hostname: DESKTOP-0FK95KB
+[2023-10-13T22:50:15.390272 19920] Working directory: C:/Users/Egor/IDEAPR~1/game/src/main.build
+[2023-10-13T22:50:15.391274 19920] Compiler type: gcc
+[2023-10-13T22:50:15.391274 1664 ] Hostname: DESKTOP-0FK95KB
+[2023-10-13T22:50:15.391274 1664 ] Working directory: C:/Users/Egor/IDEAPR~1/game/src/main.build
+[2023-10-13T22:50:15.391274 1664 ] Compiler type: gcc
+[2023-10-13T22:50:15.391274 19920] Source file: __loader.c
+[2023-10-13T22:50:15.391274 8512 ] Hostname: DESKTOP-0FK95KB
+[2023-10-13T22:50:15.391274 1664 ] Source file: __helpers.c
+s/Egor/IDEAPR~1/game/src/main.build
+[2023-10-13T22:50:15.391274 1664 ] Object file: __helpers.o
+[2023-10-13T22:50:15.392272 19920] Trying direct lookup
+[2023-10-13T22:50:15.392272 1664 ] Trying direct lookup
+[2023-10-13T22:50:15.392272 8512 ] Source file: __constants.c
+[2023-10-13T22:50:15.392272 8512 ] Object file: __constants.o
+[2023-10-13T22:50:15.392272 1664 ] No d0bfhfr42lcdlp9ripcogj22ln5n6pe1o in primary storage
+[2023-10-13T22:50:15.393271 19920] No e828crbj6gomk8cu26ua6rraucofeq9ls in primary storage
+[2023-10-13T22:50:15.393271 8512 ] Trying direct lookup
+[2023-10-13T22:50:15.393271 8512 ] No 7dc3rm3v3kfelo9jm0okudokdk9i88ta8 in primary storage
+[2023-10-13T22:50:15.395271 15964] === CCACHE 4.6 STARTED =========================================
+[2023-10-13T22:50:15.395271 15964] Config: (default) absolute_paths_in_stderr = false
+[2023-10-13T22:50:15.395271 15964] Config: (default) base_dir = 
+[2023-10-13T22:50:15.395271 15964] Config: (environment) cache_dir = C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-10-13T22:50:15.395271 15964] Config: (default) compiler = 
+[2023-10-13T22:50:15.395271 15964] Config: (default) compiler_check = mtime
+[2023-10-13T22:50:15.395271 15964] Config: (default) compiler_type = auto
+[2023-10-13T22:50:15.395271 15964] Config: (default) compression = true
+[2023-10-13T22:50:15.395271 15964] Config: (default) compression_level = 0
+[2023-10-13T22:50:15.395271 15964] Config: (default) cpp_extension = 
+[2023-10-13T22:50:15.395271 15964] Config: (default) debug = false
+[2023-10-13T22:50:15.395271 15964] Config: (default) debug_dir = 
+[2023-10-13T22:50:15.395271 15964] Config: (default) depend_mode = false
+[2023-10-13T22:50:15.395271 15964] Config: (default) direct_mode = true
+[2023-10-13T22:50:15.395271 15964] Config: (default) disable = false
+[2023-10-13T22:50:15.395271 15964] Config: (default) extra_files_to_hash = 
+[2023-10-13T22:50:15.395271 15964] Config: (default) file_clone = false
+[2023-10-13T22:50:15.395271 15964] Config: (default) hard_link = false
+[2023-10-13T22:50:15.395271 15964] Config: (default) hash_dir = true
+[2023-10-13T22:50:15.395271 15964] Config: (default) ignore_headers_in_manifest = 
+[2023-10-13T22:50:15.395271 15964] Config: (default) ignore_options = 
+[2023-10-13T22:50:15.395271 15964] Config: (default) inode_cache = false
+[2023-10-13T22:50:15.395271 15964] Config: (default) keep_comments_cpp = false
+[2023-10-13T22:50:15.395271 15964] Config: (default) limit_multiple = 0.8
+[2023-10-13T22:50:15.395271 15964] Config: (environment) log_file = C:\Users\Egor\IDEAPR~1\game\src\main.build\ccache-7800.txt
+[2023-10-13T22:50:15.395271 15964] Config: (default) max_files = 0
+[2023-10-13T22:50:15.395271 15964] Config: (default) max_size = 5.0G
+[2023-10-13T22:50:15.395271 15964] Config: (default) namespace = 
+[2023-10-13T22:50:15.395271 15964] Config: (default) path = 
+[2023-10-13T22:50:15.395271 15964] Config: (default) pch_external_checksum = false
+[2023-10-13T22:50:15.395271 15964] Config: (default) prefix_command = 
+[2023-10-13T22:50:15.395271 15964] Config: (default) prefix_command_cpp = 
+[2023-10-13T22:50:15.395271 15964] Config: (default) read_only = false
+[2023-10-13T22:50:15.395271 15964] Config: (default) read_only_direct = false
+[2023-10-13T22:50:15.395271 15964] Config: (default) recache = false
+[2023-10-13T22:50:15.395271 15964] Config: (default) reshare = false
+[2023-10-13T22:50:15.395271 15964] Config: (default) run_second_cpp = true
+[2023-10-13T22:50:15.395271 15964] Config: (default) secondary_storage = 
+[2023-10-13T22:50:15.395271 15964] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-10-13T22:50:15.395271 15964] Config: (default) stats = true
+[2023-10-13T22:50:15.395271 15964] Config: (default) stats_log = 
+[2023-10-13T22:50:15.395271 15964] Config: (default) temporary_dir = C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-10-13T22:50:15.395271 15964] Config: (default) umask = 
+[2023-10-13T22:50:15.395271 15964] Command line: C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\downloads\ccache\v4.6\ccache.exe C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\11.3.0-14.0.3-10.0.0-msvcrt-r3\mingw64\bin\gcc.exe -o module.Auxiliary.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -DNUITKA_FILE_REFERENCE_ORIGINAL_MODE -IC:\Users\Egor\AppData\Local\Programs\Python\PYTHON~1\include -I. -IC:\Users\Egor\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\include -IC:\Users\Egor\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\static_src module.Auxiliary.c
+[2023-10-13T22:50:15.396271 19920] Running preprocessor
+[2023-10-13T22:50:15.396271 1664 ] Running preprocessor
+[2023-10-13T22:50:15.397271 8512 ] Running preprocessor
+[2023-10-13T22:50:15.403269 15964] Hostname: DESKTOP-0FK95KB
+[2023-10-13T22:50:15.403269 15964] Working directory: C:/Users/Egor/IDEAPR~1/game/src/main.build
+[2023-10-13T22:50:15.403269 15964] Compiler type: gcc
+[2023-10-13T22:50:15.404268 15964] Source file: module.Auxiliary.c
+[2023-10-13T22:50:15.404268 15964] Object file: module.Auxiliary.o
+[2023-10-13T22:50:15.404268 15964] Trying direct lookup
+[2023-10-13T22:50:15.405268 15964] No 26e9fsmb207ug74s5gm4v6hch22i0f8b8 in primary storage
+[2023-10-13T22:50:15.407267 15964] Running preprocessor
+[2023-10-13T22:50:15.410267 13272] === CCACHE 4.6 STARTED =========================================
+[2023-10-13T22:50:15.410267 13272] Config: (default) absolute_paths_in_stderr = false
+[2023-10-13T22:50:15.410267 13272] Config: (default) base_dir = 
+[2023-10-13T22:50:15.410267 13272] Config: (environment) cache_dir = C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-10-13T22:50:15.410267 13272] Config: (default) compiler = 
+[2023-10-13T22:50:15.410267 13272] Config: (default) compiler_check = mtime
+[2023-10-13T22:50:15.410267 13272] Config: (default) compiler_type = auto
+[2023-10-13T22:50:15.410267 13272] Config: (default) compression = true
+[2023-10-13T22:50:15.410267 13272] Config: (default) compression_level = 0
+[2023-10-13T22:50:15.410267 13272] Config: (default) cpp_extension = 
+[2023-10-13T22:50:15.410267 13272] Config: (default) debug = false
+[2023-10-13T22:50:15.410267 13272] Config: (default) debug_dir = 
+[2023-10-13T22:50:15.410267 13272] Config: (default) depend_mode = false
+[2023-10-13T22:50:15.410267 13272] Config: (default) direct_mode = true
+[2023-10-13T22:50:15.410267 13272] Config: (default) disable = false
+[2023-10-13T22:50:15.410267 13272] Config: (default) extra_files_to_hash = 
+[2023-10-13T22:50:15.410267 13272] Config: (default) file_clone = false
+[2023-10-13T22:50:15.410267 13272] Config: (default) hard_link = false
+[2023-10-13T22:50:15.410267 13272] Config: (default) hash_dir = true
+[2023-10-13T22:50:15.410267 13272] Config: (default) ignore_headers_in_manifest = 
+[2023-10-13T22:50:15.410267 13272] Config: (default) ignore_options = 
+[2023-10-13T22:50:15.410267 13272] Config: (default) inode_cache = false
+[2023-10-13T22:50:15.410267 13272] Config: (default) keep_comments_cpp = false
+[2023-10-13T22:50:15.410267 13272] Config: (default) limit_multiple = 0.8
+[2023-10-13T22:50:15.410267 13272] Config: (environment) log_file = C:\Users\Egor\IDEAPR~1\game\src\main.build\ccache-7800.txt
+[2023-10-13T22:50:15.410267 13272] Config: (default) max_files = 0
+[2023-10-13T22:50:15.410267 13272] Config: (default) max_size = 5.0G
+[2023-10-13T22:50:15.410267 13272] Config: (default) namespace = 
+[2023-10-13T22:50:15.410267 13272] Config: (default) path = 
+[2023-10-13T22:50:15.410267 13272] Config: (default) pch_external_checksum = false
+[2023-10-13T22:50:15.410267 13272] Config: (default) prefix_command = 
+[2023-10-13T22:50:15.410267 13272] Config: (default) prefix_command_cpp = 
+[2023-10-13T22:50:15.410267 13272] Config: (default) read_only = false
+[2023-10-13T22:50:15.410267 13272] Config: (default) read_only_direct = false
+[2023-10-13T22:50:15.410267 13272] Config: (default) recache = false
+[2023-10-13T22:50:15.410267 13272] Config: (default) reshare = false
+[2023-10-13T22:50:15.410267 13272] Config: (default) run_second_cpp = true
+[2023-10-13T22:50:15.410267 13272] Config: (default) secondary_storage = 
+[2023-10-13T22:50:15.410267 13272] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-10-13T22:50:15.410267 13272] Config: (default) stats = true
+[2023-10-13T22:50:15.410267 13272] Config: (default) stats_log = 
+[2023-10-13T22:50:15.410267 13272] Config: (default) temporary_dir = C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-10-13T22:50:15.410267 13272] Config: (default) umask = 
+[2023-10-13T22:50:15.411266 13272] Command line: C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\downloads\ccache\v4.6\ccache.exe C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\11.3.0-14.0.3-10.0.0-msvcrt-r3\mingw64\bin\gcc.exe -o module.Seeker.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -DNUITKA_FILE_REFERENCE_ORIGINAL_MODE -IC:\Users\Egor\AppData\Local\Programs\Python\PYTHON~1\include -I. -IC:\Users\Egor\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\include -IC:\Users\Egor\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\static_src module.Seeker.c
+[2023-10-13T22:50:15.418264 13272] Hostname: DESKTOP-0FK95KB
+[2023-10-13T22:50:15.418264 13272] Working directory: C:/Users/Egor/IDEAPR~1/game/src/main.build
+[2023-10-13T22:50:15.418264 13272] Compiler type: gcc
+[2023-10-13T22:50:15.419264 13272] Source file: module.Seeker.c
+[2023-10-13T22:50:15.419264 13272] Object file: module.Seeker.o
+[2023-10-13T22:50:15.419264 13272] Trying direct lookup
+[2023-10-13T22:50:15.420264 13272] No a649doj34d38cuhs8um3a3ipvg1k5nsjs in primary storage
+[2023-10-13T22:50:15.422262 13272] Running preprocessor
+[2023-10-13T22:50:15.433258 19216] === CCACHE 4.6 STARTED =========================================
+[2023-10-13T22:50:15.433258 19216] Config: (default) absolute_paths_in_stderr = false
+[2023-10-13T22:50:15.433258 19216] Config: (default) base_dir = 
+[2023-10-13T22:50:15.433258 19216] Config: (environment) cache_dir = C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-10-13T22:50:15.433258 19216] Config: (default) compiler = 
+[2023-10-13T22:50:15.433258 19216] Config: (default) compiler_check = mtime
+[2023-10-13T22:50:15.433258 19216] Config: (default) compiler_type = auto
+[2023-10-13T22:50:15.433258 19216] Config: (default) compression = true
+[2023-10-13T22:50:15.433258 19216] Config: (default) compression_level = 0
+[2023-10-13T22:50:15.433258 19216] Config: (default) cpp_extension = 
+[2023-10-13T22:50:15.433258 19216] Config: (default) debug = false
+[2023-10-13T22:50:15.433258 19216] Config: (default) debug_dir = 
+[2023-10-13T22:50:15.433258 19216] Config: (default) depend_mode = false
+[2023-10-13T22:50:15.433258 19216] Config: (default) direct_mode = true
+[2023-10-13T22:50:15.433258 19216] Config: (default) disable = false
+[2023-10-13T22:50:15.433258 19216] Config: (default) extra_files_to_hash = 
+[2023-10-13T22:50:15.433258 19216] Config: (default) file_clone = false
+[2023-10-13T22:50:15.433258 19216] Config: (default) hard_link = false
+[2023-10-13T22:50:15.433258 19216] Config: (default) hash_dir = true
+[2023-10-13T22:50:15.433258 19216] Config: (default) ignore_headers_in_manifest = 
+[2023-10-13T22:50:15.433258 19216] Config: (default) ignore_options = 
+[2023-10-13T22:50:15.433258 19216] Config: (default) inode_cache = false
+[2023-10-13T22:50:15.433258 19216] Config: (default) keep_comments_cpp = false
+[2023-10-13T22:50:15.433258 19216] Config: (default) limit_multiple = 0.8
+[2023-10-13T22:50:15.433258 19216] Config: (environment) log_file = C:\Users\Egor\IDEAPR~1\game\src\main.build\ccache-7800.txt
+[2023-10-13T22:50:15.433258 19216] Config: (default) max_files = 0
+[2023-10-13T22:50:15.433258 19216] Config: (default) max_size = 5.0G
+[2023-10-13T22:50:15.433258 19216] Config: (default) namespace = 
+[2023-10-13T22:50:15.433258 19216] Config: (default) path = 
+[2023-10-13T22:50:15.433258 19216] Config: (default) pch_external_checksum = false
+[2023-10-13T22:50:15.433258 19216] Config: (default) prefix_command = 
+[2023-10-13T22:50:15.433258 19216] Config: (default) prefix_command_cpp = 
+[2023-10-13T22:50:15.433258 19216] Config: (default) read_only = false
+[2023-10-13T22:50:15.433258 19216] Config: (default) read_only_direct = false
+[2023-10-13T22:50:15.433258 19216] Config: (default) recache = false
+[2023-10-13T22:50:15.433258 19216] Config: (default) reshare = false
+[2023-10-13T22:50:15.433258 19216] Config: (default) run_second_cpp = true
+[2023-10-13T22:50:15.433258 19216] Config: (default) secondary_storage = 
+[2023-10-13T22:50:15.433258 19216] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-10-13T22:50:15.433258 19216] Config: (default) stats = true
+[2023-10-13T22:50:15.433258 19216] Config: (default) stats_log = 
+[2023-10-13T22:50:15.433258 19216] Config: (default) temporary_dir = C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-10-13T22:50:15.433258 19216] Config: (default) umask = 
+[2023-10-13T22:50:15.434258 19216] Command line: C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\downloads\ccache\v4.6\ccache.exe C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\11.3.0-14.0.3-10.0.0-msvcrt-r3\mingw64\bin\gcc.exe -o module.Shadow.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -DNUITKA_FILE_REFERENCE_ORIGINAL_MODE -IC:\Users\Egor\AppData\Local\Programs\Python\PYTHON~1\include -I. -IC:\Users\Egor\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\include -IC:\Users\Egor\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\static_src module.Shadow.c
+[2023-10-13T22:50:15.442256 19216] Hostname: DESKTOP-0FK95KB
+[2023-10-13T22:50:15.442256 19216] Working directory: C:/Users/Egor/IDEAPR~1/game/src/main.build
+[2023-10-13T22:50:15.442256 19216] Compiler type: gcc
+[2023-10-13T22:50:15.442256 19216] Source file: module.Shadow.c
+[2023-10-13T22:50:15.442256 19216] Object file: module.Shadow.o
+[2023-10-13T22:50:15.443256 19216] Trying direct lookup
+[2023-10-13T22:50:15.444256 19216] No 08691j6v6756qiju934fpoe2rhne44q3u in primary storage
+[2023-10-13T22:50:15.446255 19216] Running preprocessor
+[2023-10-13T22:50:15.458251 21212] === CCACHE 4.6 STARTED =========================================
+[2023-10-13T22:50:15.458251 21212] Config: (default) absolute_paths_in_stderr = false
+[2023-10-13T22:50:15.458251 21212] Config: (default) base_dir = 
+[2023-10-13T22:50:15.458251 21212] Config: (environment) cache_dir = C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-10-13T22:50:15.458251 21212] Config: (default) compiler = 
+[2023-10-13T22:50:15.458251 21212] Config: (default) compiler_check = mtime
+[2023-10-13T22:50:15.458251 21212] Config: (default) compiler_type = auto
+[2023-10-13T22:50:15.458251 21212] Config: (default) compression = true
+[2023-10-13T22:50:15.458251 21212] Config: (default) compression_level = 0
+[2023-10-13T22:50:15.458251 21212] Config: (default) cpp_extension = 
+[2023-10-13T22:50:15.458251 21212] Config: (default) debug = false
+[2023-10-13T22:50:15.458251 21212] Config: (default) debug_dir = 
+[2023-10-13T22:50:15.458251 21212] Config: (default) depend_mode = false
+[2023-10-13T22:50:15.458251 21212] Config: (default) direct_mode = true
+[2023-10-13T22:50:15.458251 21212] Config: (default) disable = false
+[2023-10-13T22:50:15.458251 21212] Config: (default) extra_files_to_hash = 
+[2023-10-13T22:50:15.458251 21212] Config: (default) file_clone = false
+[2023-10-13T22:50:15.458251 21212] Config: (default) hard_link = false
+[2023-10-13T22:50:15.458251 21212] Config: (default) hash_dir = true
+[2023-10-13T22:50:15.458251 21212] Config: (default) ignore_headers_in_manifest = 
+[2023-10-13T22:50:15.458251 21212] Config: (default) ignore_options = 
+[2023-10-13T22:50:15.458251 21212] Config: (default) inode_cache = false
+[2023-10-13T22:50:15.458251 21212] Config: (default) keep_comments_cpp = false
+[2023-10-13T22:50:15.458251 21212] Config: (default) limit_multiple = 0.8
+[2023-10-13T22:50:15.458251 21212] Config: (environment) log_file = C:\Users\Egor\IDEAPR~1\game\src\main.build\ccache-7800.txt
+[2023-10-13T22:50:15.458251 21212] Config: (default) max_files = 0
+[2023-10-13T22:50:15.458251 21212] Config: (default) max_size = 5.0G
+[2023-10-13T22:50:15.458251 21212] Config: (default) namespace = 
+[2023-10-13T22:50:15.458251 21212] Config: (default) path = 
+[2023-10-13T22:50:15.458251 21212] Config: (default) pch_external_checksum = false
+[2023-10-13T22:50:15.458251 21212] Config: (default) prefix_command = 
+[2023-10-13T22:50:15.458251 21212] Config: (default) prefix_command_cpp = 
+[2023-10-13T22:50:15.458251 21212] Config: (default) read_only = false
+[2023-10-13T22:50:15.458251 21212] Config: (default) read_only_direct = false
+[2023-10-13T22:50:15.458251 21212] Config: (default) recache = false
+[2023-10-13T22:50:15.458251 21212] Config: (default) reshare = false
+[2023-10-13T22:50:15.458251 21212] Config: (default) run_second_cpp = true
+[2023-10-13T22:50:15.458251 21212] Config: (default) secondary_storage = 
+[2023-10-13T22:50:15.458251 21212] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-10-13T22:50:15.458251 21212] Config: (default) stats = true
+[2023-10-13T22:50:15.458251 21212] Config: (default) stats_log = 
+[2023-10-13T22:50:15.458251 21212] Config: (default) temporary_dir = C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-10-13T22:50:15.458251 21212] Config: (default) umask = 
+[2023-10-13T22:50:15.459251 21212] Command line: C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\downloads\ccache\v4.6\ccache.exe C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\11.3.0-14.0.3-10.0.0-msvcrt-r3\mingw64\bin\gcc.exe -o module.__main__.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -DNUITKA_FILE_REFERENCE_ORIGINAL_MODE -IC:\Users\Egor\AppData\Local\Programs\Python\PYTHON~1\include -I. -IC:\Users\Egor\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\include -IC:\Users\Egor\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\static_src module.__main__.c
+[2023-10-13T22:50:15.465249 8512 ] Preprocessor gave exit status 1
+[2023-10-13T22:50:15.465249 8512 ] Failed; falling back to running the real compiler
+[2023-10-13T22:50:15.465249 8512 ] Executing C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\11.3.0-14.0.3-10.0.0-msvcrt-r3\mingw64\bin\gcc.exe -o __constants.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -DNUITKA_FILE_REFERENCE_ORIGINAL_MODE -IC:\Users\Egor\AppData\Local\Programs\Python\PYTHON~1\include -I. -IC:\Users\Egor\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\include -IC:\Users\Egor\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\static_src __constants.c
+[2023-10-13T22:50:15.465249 8512 ] Result: direct_cache_miss
+[2023-10-13T22:50:15.465249 8512 ] Result: preprocessor_error
+[2023-10-13T22:50:15.465249 8512 ] Result: primary_storage_miss
+[2023-10-13T22:50:15.466248 17396] === CCACHE 4.6 STARTED =========================================
+[2023-10-13T22:50:15.466248 17396] Config: (default) absolute_paths_in_stderr = false
+[2023-10-13T22:50:15.466248 17396] Config: (default) base_dir = 
+[2023-10-13T22:50:15.466248 17396] Config: (environment) cache_dir = C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2023-10-13T22:50:15.466248 17396] Config: (default) compiler = 
+[2023-10-13T22:50:15.466248 17396] Config: (default) compiler_check = mtime
+[2023-10-13T22:50:15.466248 17396] Config: (default) compiler_type = auto
+[2023-10-13T22:50:15.466248 17396] Config: (default) compression = true
+[2023-10-13T22:50:15.466248 17396] Config: (default) compression_level = 0
+[2023-10-13T22:50:15.466248 17396] Config: (default) cpp_extension = 
+[2023-10-13T22:50:15.466248 17396] Config: (default) debug = false
+[2023-10-13T22:50:15.466248 17396] Config: (default) debug_dir = 
+[2023-10-13T22:50:15.466248 17396] Config: (default) depend_mode = false
+[2023-10-13T22:50:15.466248 17396] Config: (default) direct_mode = true
+[2023-10-13T22:50:15.466248 17396] Config: (default) disable = false
+[2023-10-13T22:50:15.466248 17396] Config: (default) extra_files_to_hash = 
+[2023-10-13T22:50:15.466248 17396] Config: (default) file_clone = false
+[2023-10-13T22:50:15.466248 17396] Config: (default) hard_link = false
+[2023-10-13T22:50:15.466248 17396] Config: (default) hash_dir = true
+[2023-10-13T22:50:15.466248 17396] Config: (default) ignore_headers_in_manifest = 
+[2023-10-13T22:50:15.466248 17396] Config: (default) ignore_options = 
+[2023-10-13T22:50:15.466248 17396] Config: (default) inode_cache = false
+[2023-10-13T22:50:15.466248 17396] Config: (default) keep_comments_cpp = false
+[2023-10-13T22:50:15.466248 17396] Config: (default) limit_multiple = 0.8
+[2023-10-13T22:50:15.466248 17396] Config: (environment) log_file = C:\Users\Egor\IDEAPR~1\game\src\main.build\ccache-7800.txt
+[2023-10-13T22:50:15.466248 17396] Config: (default) max_files = 0
+[2023-10-13T22:50:15.466248 17396] Config: (default) max_size = 5.0G
+[2023-10-13T22:50:15.466248 17396] Config: (default) namespace = 
+[2023-10-13T22:50:15.466248 17396] Config: (default) path = 
+[2023-10-13T22:50:15.466248 17396] Config: (default) pch_external_checksum = false
+[2023-10-13T22:50:15.466248 17396] Config: (default) prefix_command = 
+[2023-10-13T22:50:15.466248 17396] Config: (default) prefix_command_cpp = 
+[2023-10-13T22:50:15.466248 17396] Config: (default) read_only = false
+[2023-10-13T22:50:15.466248 17396] Config: (default) read_only_direct = false
+[2023-10-13T22:50:15.466248 17396] Config: (default) recache = false
+[2023-10-13T22:50:15.466248 17396] Config: (default) reshare = false
+[2023-10-13T22:50:15.466248 17396] Config: (default) run_second_cpp = true
+[2023-10-13T22:50:15.466248 17396] Config: (default) secondary_storage = 
+[2023-10-13T22:50:15.466248 17396] Config: (environment) sloppiness = include_file_mtime, include_file_ctime
+[2023-10-13T22:50:15.466248 17396] Config: (default) stats = true
+[2023-10-13T22:50:15.466248 17396] Config: (default) stats_log = 
+[2023-10-13T22:50:15.466248 17396] Config: (default) temporary_dir = C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2023-10-13T22:50:15.466248 17396] Config: (default) umask = 
+[2023-10-13T22:50:15.466248 17396] Command line: C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\downloads\ccache\v4.6\ccache.exe C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\11.3.0-14.0.3-10.0.0-msvcrt-r3\mingw64\bin\gcc.exe -o module.pywin32_bootstrap.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -DNUITKA_FILE_REFERENCE_ORIGINAL_MODE -IC:\Users\Egor\AppData\Local\Programs\Python\PYTHON~1\include -I. -IC:\Users\Egor\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\include -IC:\Users\Egor\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\static_src module.pywin32_bootstrap.c
+[2023-10-13T22:50:15.466248 1664 ] Preprocessor gave exit status 1
+[2023-10-13T22:50:15.467248 1664 ] Failed; falling back to running the real compiler
+[2023-10-13T22:50:15.467248 1664 ] Executing C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\11.3.0-14.0.3-10.0.0-msvcrt-r3\mingw64\bin\gcc.exe -o __helpers.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -DNUITKA_FILE_REFERENCE_ORIGINAL_MODE -IC:\Users\Egor\AppData\Local\Programs\Python\PYTHON~1\include -I. -IC:\Users\Egor\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\include -IC:\Users\Egor\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\static_src __helpers.c
+[2023-10-13T22:50:15.467248 1664 ] Result: direct_cache_miss
+[2023-10-13T22:50:15.467248 1664 ] Result: preprocessor_error
+[2023-10-13T22:50:15.467248 1664 ] Result: primary_storage_miss
+[2023-10-13T22:50:15.468248 21212] Hostname: DESKTOP-0FK95KB
+[2023-10-13T22:50:15.468248 21212] Working directory: C:/Users/Egor/IDEAPR~1/game/src/main.build
+[2023-10-13T22:50:15.468248 21212] Compiler type: gcc
+[2023-10-13T22:50:15.469247 1664 ] Acquired lock C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/0/stats.lock
+[2023-10-13T22:50:15.469247 8512 ] Acquired lock C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/0/stats.lock
+[2023-10-13T22:50:15.470247 21212] Source file: module.__main__.c
+[2023-10-13T22:50:15.470247 21212] Object file: module.__main__.o
+[2023-10-13T22:50:15.470247 21212] Trying direct lookup
+[2023-10-13T22:50:15.470247 19920] Preprocessor gave exit status 1
+[2023-10-13T22:50:15.470247 15964] Preprocessor gave exit status 1
+he real compiler
+[2023-10-13T22:50:15.470247 19920] Executing C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\11.3.0-14.0.3-10.0.0-msvcrt-r3\mingw64\bin\gcc.exe -o __loader.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -DNUITKA_FILE_REFERENCE_ORIGINAL_MODE -IC:\Users\Egor\AppData\Local\Programs\Python\PYTHON~1\include -I. -IC:\Users\Egor\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\include -IC:\Users\Egor\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\static_src __loader.c
+[2023-10-13T22:50:15.471247 15964] Executing C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\11.3.0-14.0.3-10.0.0-msvcrt-r3\mingw64\bin\gcc.exe -o module.Auxiliary.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -DNUITKA_FILE_REFERENCE_ORIGINAL_MODE -IC:\Users\Egor\AppData\Local\Programs\Python\PYTHON~1\include -I. -IC:\Users\Egor\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\include -IC:\Users\Egor\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\static_src module.Auxiliary.c
+[2023-10-13T22:50:15.471247 19920] Result: preprocessor_error
+[2023-10-13T22:50:15.471247 15964] Result: direct_cache_miss
+s
+[2023-10-13T22:50:15.471247 15964] Result: preprocessor_error
+[2023-10-13T22:50:15.471247 15964] Result: primary_storage_miss
+[2023-10-13T22:50:15.471247 21212] No 49572r848v5a4g9rud5trlaa1k4ai8950 in primary storage
+[2023-10-13T22:50:15.471247 8512 ] Releasing lock C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/4/0/stats.lock
+[2023-10-13T22:50:15.472246 8512 ] Unlink C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stderr.xEc1xl
+[2023-10-13T22:50:15.472246 8512 ] Unlink C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.GcO8eQ.i
+[2023-10-13T22:50:15.473246 8512 ] Unlink C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.GcO8eQ
+[2023-10-13T22:50:15.473246 15964] Acquired lock C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/c/stats.lock
+[2023-10-13T22:50:15.473246 21212] Running preprocessor
+[2023-10-13T22:50:15.473246 1664 ] Releasing lock C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/0/stats.lock
+[2023-10-13T22:50:15.474246 19920] Releasing lock C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/0/stats.lock
+[2023-10-13T22:50:15.474246 19920] Unlink C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stderr.15BpNM
+[2023-10-13T22:50:15.475246 15964] Releasing lock C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/c/stats.lock
+[2023-10-13T22:50:15.475246 17396] Hostname: DESKTOP-0FK95KB
+[2023-10-13T22:50:15.475246 17396] Working directory: C:/Users/Egor/IDEAPR~1/game/src/main.build
+[2023-10-13T22:50:15.475246 17396] Compiler type: gcc
+[2023-10-13T22:50:15.476245 1664 ] Unlink C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stderr.SSEs40
+[2023-10-13T22:50:15.476245 17396] Source file: module.pywin32_bootstrap.c
+[2023-10-13T22:50:15.476245 17396] Object file: module.pywin32_bootstrap.o
+[2023-10-13T22:50:15.476245 15964] Unlink C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stderr.bqV9XR
+[2023-10-13T22:50:15.476245 17396] Trying direct lookup
+[2023-10-13T22:50:15.477245 15964] Unlink C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.njVsLc.i
+[2023-10-13T22:50:15.477245 19920] Unlink C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.ktR2rT.i
+[2023-10-13T22:50:15.477245 1664 ] Unlink C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.f7H1me.i
+[2023-10-13T22:50:15.477245 15964] Unlink C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.njVsLc
+[2023-10-13T22:50:15.477245 17396] No 881597canid1brft1p1scusv1ph9gb9f0 in primary storage
+[2023-10-13T22:50:15.477245 1664 ] Unlink C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.f7H1me
+[2023-10-13T22:50:15.478244 19920] Unlink C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.ktR2rT
+[2023-10-13T22:50:15.479244 17396] Running preprocessor
+[2023-10-13T22:50:15.496239 13272] Preprocessor gave exit status 1
+[2023-10-13T22:50:15.496239 13272] Failed; falling back to running the real compiler
+[2023-10-13T22:50:15.496239 13272] Executing C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\11.3.0-14.0.3-10.0.0-msvcrt-r3\mingw64\bin\gcc.exe -o module.Seeker.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -DNUITKA_FILE_REFERENCE_ORIGINAL_MODE -IC:\Users\Egor\AppData\Local\Programs\Python\PYTHON~1\include -I. -IC:\Users\Egor\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\include -IC:\Users\Egor\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\static_src module.Seeker.c
+[2023-10-13T22:50:15.496239 13272] Result: direct_cache_miss
+[2023-10-13T22:50:15.496239 13272] Result: preprocessor_error
+[2023-10-13T22:50:15.496239 13272] Result: primary_storage_miss
+[2023-10-13T22:50:15.500238 13272] Acquired lock C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/8/stats.lock
+[2023-10-13T22:50:15.504236 13272] Releasing lock C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/8/stats.lock
+[2023-10-13T22:50:15.504236 13272] Unlink C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stderr.R0ZRnR
+[2023-10-13T22:50:15.509235 13272] Unlink C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.rt01rE.i
+[2023-10-13T22:50:15.510234 13272] Unlink C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.rt01rE
+[2023-10-13T22:50:15.526229 19216] Preprocessor gave exit status 1
+[2023-10-13T22:50:15.526229 19216] Failed; falling back to running the real compiler
+[2023-10-13T22:50:15.526229 19216] Executing C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\11.3.0-14.0.3-10.0.0-msvcrt-r3\mingw64\bin\gcc.exe -o module.Shadow.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -DNUITKA_FILE_REFERENCE_ORIGINAL_MODE -IC:\Users\Egor\AppData\Local\Programs\Python\PYTHON~1\include -I. -IC:\Users\Egor\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\include -IC:\Users\Egor\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\static_src module.Shadow.c
+[2023-10-13T22:50:15.526229 19216] Result: direct_cache_miss
+[2023-10-13T22:50:15.526229 19216] Result: preprocessor_error
+[2023-10-13T22:50:15.526229 19216] Result: primary_storage_miss
+[2023-10-13T22:50:15.527229 19216] Acquired lock C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/0/stats.lock
+[2023-10-13T22:50:15.530228 19216] Releasing lock C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/0/stats.lock
+[2023-10-13T22:50:15.530228 19216] Unlink C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stderr.9u6OMT
+[2023-10-13T22:50:15.530228 19216] Unlink C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.CeopZm.i
+[2023-10-13T22:50:15.535227 19216] Unlink C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.CeopZm
+[2023-10-13T22:50:15.550222 17396] Preprocessor gave exit status 1
+[2023-10-13T22:50:15.550222 17396] Failed; falling back to running the real compiler
+[2023-10-13T22:50:15.550222 17396] Executing C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\11.3.0-14.0.3-10.0.0-msvcrt-r3\mingw64\bin\gcc.exe -o module.pywin32_bootstrap.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -DNUITKA_FILE_REFERENCE_ORIGINAL_MODE -IC:\Users\Egor\AppData\Local\Programs\Python\PYTHON~1\include -I. -IC:\Users\Egor\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\include -IC:\Users\Egor\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\static_src module.pywin32_bootstrap.c
+[2023-10-13T22:50:15.551221 17396] Result: direct_cache_miss
+[2023-10-13T22:50:15.551221 17396] Result: preprocessor_error
+[2023-10-13T22:50:15.551221 17396] Result: primary_storage_miss
+[2023-10-13T22:50:15.552221 21212] Preprocessor gave exit status 1
+[2023-10-13T22:50:15.552221 21212] Failed; falling back to running the real compiler
+[2023-10-13T22:50:15.552221 21212] Executing C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\downloads\gcc\x86_64\11.3.0-14.0.3-10.0.0-msvcrt-r3\mingw64\bin\gcc.exe -o module.__main__.o -c -flto -fuse-linker-plugin -fno-fat-lto-objects -std=c11 -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -D_WIN32_WINNT=0x0501 -D__NUITKA_NO_ASSERT__ -D_NUITKA_WINMAIN_ENTRY_POINT -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_EXE -DNUITKA_FILE_REFERENCE_ORIGINAL_MODE -IC:\Users\Egor\AppData\Local\Programs\Python\PYTHON~1\include -I. -IC:\Users\Egor\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\include -IC:\Users\Egor\AppData\Local\Programs\Python\PYTHON~1\Lib\SITE-P~1\nuitka\build\static_src module.__main__.c
+[2023-10-13T22:50:15.552221 21212] Result: direct_cache_miss
+[2023-10-13T22:50:15.552221 21212] Result: preprocessor_error
+[2023-10-13T22:50:15.552221 21212] Result: primary_storage_miss
+[2023-10-13T22:50:15.553220 17396] Acquired lock C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/4/stats.lock
+[2023-10-13T22:50:15.553220 21212] Acquired lock C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/c/stats.lock
+[2023-10-13T22:50:15.555220 17396] Releasing lock C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/4/stats.lock
+[2023-10-13T22:50:15.555220 21212] Releasing lock C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/c/stats.lock
+[2023-10-13T22:50:15.555220 17396] Unlink C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stderr.lv7fyM
+[2023-10-13T22:50:15.555220 21212] Unlink C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stderr.2CtJeF
+[2023-10-13T22:50:15.556220 17396] Unlink C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.1w1CIS.i
+[2023-10-13T22:50:15.556220 21212] Unlink C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.XB6bmo.i
+[2023-10-13T22:50:15.556220 17396] Unlink C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.1w1CIS
+[2023-10-13T22:50:15.556220 21212] Unlink C:\Users\Egor\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/tmp.cpp_stdout.XB6bmo
