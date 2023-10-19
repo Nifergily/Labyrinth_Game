@@ -1,5 +1,5 @@
 import pygame as pg
-import Auxiliary as au
+import Draw as dr
 import sys
 from Shadow import Shadow as sh
 from Seeker import Seeker as sk
@@ -13,7 +13,7 @@ def main():
     debug = False
     scale = 20
 
-    lab.redact(au.random_position(lab.get_config()), 4)
+    lab.redact(lab.random_position(), 4)
 
     screen = pg.display.set_mode((lab.get_size() * scale, lab.get_size() * scale))
     pg.display.set_caption("ЛАБИРИНТ")
@@ -51,9 +51,9 @@ def main():
 
             screen.fill((0, 0, 0))
             if debug:
-                au.debug_draw(lab.get_config(), scale, screen)
+                dr.debug_draw(lab.get_config(), scale, screen)
             else:
-                au.default_draw(lab.get_config(), scale, screen, player.get_position())
+                dr.default_draw(lab.get_config(), scale, screen, player.get_position())
             pg.display.flip()
 
             clock.tick(60)

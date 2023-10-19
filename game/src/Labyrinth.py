@@ -1,3 +1,6 @@
+import random
+
+
 class Labyrinth:
     __config = None
     __size = None
@@ -71,3 +74,9 @@ class Labyrinth:
 
     def redact(self, position, key):
         self.config[position[0]][position[1]] = key
+
+    def random_position(self):
+        while True:
+            pos = [random.randint(1, self.size - 2), random.randint(1, self.size - 2)]
+            if self.config[pos[0]][pos[1]] == 0:
+                return pos

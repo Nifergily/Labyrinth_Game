@@ -1,4 +1,4 @@
-import Auxiliary as au
+import random
 
 
 class Shadow:
@@ -7,9 +7,10 @@ class Shadow:
     __check = None
 
     def __init__(self, lab):
-        self.position = au.random_position(lab.get_config())
+        self.position = lab.random_position()
         lab.redact(self.position, 2)
-        self.direction = au.random_direction("")
+        self.direction = ""
+        self.random_direction()
         self.check = True
 
     def think(self, lab, target):
@@ -57,10 +58,10 @@ class Shadow:
                         lab.set_condition(2)
                     case 5:
                         lab.redact(self.position, 0)
-                        self.position = au.random_position(lab.get_config())
+                        self.position = lab.random_position()
                         lab.redact(self.position, 2)
                     case _:
-                        self.direction = au.random_direction(self.direction)
+                        self.random_direction()
             case "Down":
                 match lab.get_config()[self.position[0] + 1][self.position[1]]:
                     case 0:
@@ -71,10 +72,10 @@ class Shadow:
                         lab.set_condition(2)
                     case 5:
                         lab.redact(self.position, 0)
-                        self.position = au.random_position(lab.get_config())
+                        self.position = lab.random_position()
                         lab.redact(self.position, 2)
                     case _:
-                        self.direction = au.random_direction(self.direction)
+                        self.random_direction()
             case "Left":
                 match lab.get_config()[self.position[0]][self.position[1] - 1]:
                     case 0:
@@ -85,10 +86,10 @@ class Shadow:
                         lab.set_condition(2)
                     case 5:
                         lab.redact(self.position, 0)
-                        self.position = au.random_position(lab.get_config())
+                        self.position = lab.random_position()
                         lab.redact(self.position, 2)
                     case _:
-                        self.direction = au.random_direction(self.direction)
+                        self.random_direction()
             case "Right":
                 match lab.get_config()[self.position[0]][self.position[1] + 1]:
                     case 0:
@@ -99,7 +100,24 @@ class Shadow:
                         lab.set_condition(2)
                     case 5:
                         lab.redact(self.position, 0)
-                        self.position = au.random_position(lab.get_config())
+                        self.position = lab.random_position()
                         lab.redact(self.position, 2)
                     case _:
-                        self.direction = au.random_direction(self.direction)
+                        self.random_direction()
+
+    def random_direction(self):
+        while True:
+            match random.randint(1, 4):
+                case 1:
+                    result = "Up"
+                case 2:
+                    result = "Down"
+                case 3:
+                    result = "Left"
+                case 4:
+                    result = "Right"
+                case _:
+                    result = ""
+            if result != self.direction:
+                self.direction = result
+                break

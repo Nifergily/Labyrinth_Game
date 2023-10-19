@@ -1,4 +1,3 @@
-import random
 import pygame as pg
 
 
@@ -8,31 +7,6 @@ light_colour = (255, 255, 255)    # Белый
 shadow_colour = (0, 0, 0)         # Чёрный
 seeker_colour = (128, 128, 0)     # Оливковый
 portal_colour = (153, 102, 204)   # Аметистовый
-
-
-def random_position(lab):
-    lb_sz = len(lab) - 2
-    while True:
-        pos = [random.randint(1, lb_sz), random.randint(1, lb_sz)]
-        if lab[pos[0]][pos[1]] == 0:
-            return pos
-
-
-def random_direction(old_direction):
-    while True:
-        match random.randint(1, 4):
-            case 1:
-                result = "Up"
-            case 2:
-                result = "Down"
-            case 3:
-                result = "Left"
-            case 4:
-                result = "Right"
-            case _:
-                result = ""
-        if result != old_direction:
-            return result
 
 
 def draw(lab, scale, screen, i, j):
