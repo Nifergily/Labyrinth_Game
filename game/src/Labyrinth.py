@@ -78,5 +78,15 @@ class Labyrinth:
     def random_position(self):
         while True:
             pos = [random.randint(1, self.size - 2), random.randint(1, self.size - 2)]
+            flag = True
             if self.config[pos[0]][pos[1]] == 0:
-                return pos
+                for i in range(pos[0] - 1, pos[0] + 1):
+                    for j in range(pos[1] - 1, pos[1] + 1):
+                        if self.config[i][j] != 0 and self.config[i][j] != 1:
+                            flag = False
+                            break
+                    if not flag:
+                        break
+
+                if flag:
+                    return pos
