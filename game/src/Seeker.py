@@ -1,71 +1,72 @@
 import Auxiliary as au
+#  from Labyrinth import Labyrinth
 
 
 class Seeker:
-    def __init__(self, lab):
-        self.position = au.random_position(lab)
+    __position = None
 
-    def redact_lab(self, lab):
-        lab[self.position[0]][self.position[1]] = 3
-        return lab
+    def __init__(self, lab):
+        self.position = au.random_position(lab.get_config())
+        lab.redact(self.position, 3)
+
+    def get_position(self):
+        return self.position
 
     def move(self, lab, direction):
         match direction:
             case "Up":
-                match lab[self.position[0] - 1][self.position[1]]:
+                match lab.get_config()[self.position[0] - 1][self.position[1]]:
                     case 0:
-                        lab[self.position[0] - 1][self.position[1]] = 3
-                        lab[self.position[0]][self.position[1]] = 0
+                        lab.redact(self.position, 0)
                         self.position = [self.position[0] - 1, self.position[1]]
+                        lab.redact(self.position, 3)
                     case 2:
-                        lab[0][0] = -1
+                        lab.set_condition(2)
                     case 4:
-                        lab[0][0] = -2
+                        lab.set_condition(3)
                     case 5:
-                        lab[self.position[0]][self.position[1]] = 0
-                        self.position = au.random_position(lab)
-                        lab[self.position[0]][self.position[1]] = 3
+                        lab.redact(self.position, 0)
+                        self.position = au.random_position(lab.get_config())
+                        lab.redact(self.position, 3)
             case "Down":
-                match lab[self.position[0] + 1][self.position[1]]:
+                match lab.get_config()[self.position[0] + 1][self.position[1]]:
                     case 0:
-                        lab[self.position[0] + 1][self.position[1]] = 3
-                        lab[self.position[0]][self.position[1]] = 0
+                        lab.redact(self.position, 0)
                         self.position = [self.position[0] + 1, self.position[1]]
+                        lab.redact(self.position, 3)
                     case 2:
-                        lab[0][0] = -1
+                        lab.set_condition(2)
                     case 4:
-                        lab[0][0] = -2
+                        lab.set_condition(3)
                     case 5:
-                        lab[self.position[0]][self.position[1]] = 0
-                        self.position = au.random_position(lab)
-                        lab[self.position[0]][self.position[1]] = 3
+                        lab.redact(self.position, 0)
+                        self.position = au.random_position(lab.get_config())
+                        lab.redact(self.position, 3)
             case "Left":
-                match lab[self.position[0]][self.position[1] - 1]:
+                match lab.get_config()[self.position[0]][self.position[1] - 1]:
                     case 0:
-                        lab[self.position[0]][self.position[1] - 1] = 3
-                        lab[self.position[0]][self.position[1]] = 0
+                        lab.redact(self.position, 0)
                         self.position = [self.position[0], self.position[1] - 1]
+                        lab.redact(self.position, 3)
                     case 2:
-                        lab[0][0] = -1
+                        lab.set_condition(2)
                     case 4:
-                        lab[0][0] = -2
+                        lab.set_condition(3)
                     case 5:
-                        lab[self.position[0]][self.position[1]] = 0
-                        self.position = au.random_position(lab)
-                        lab[self.position[0]][self.position[1]] = 3
+                        lab.redact(self.position, 0)
+                        self.position = au.random_position(lab.get_config())
+                        lab.redact(self.position, 3)
             case "Right":
-                match lab[self.position[0]][self.position[1] + 1]:
+                match lab.get_config()[self.position[0]][self.position[1] + 1]:
                     case 0:
-                        lab[self.position[0]][self.position[1] + 1] = 3
-                        lab[self.position[0]][self.position[1]] = 0
+                        lab.redact(self.position, 0)
                         self.position = [self.position[0], self.position[1] + 1]
+                        lab.redact(self.position, 3)
                     case 2:
-                        lab[0][0] = -1
+                        lab.set_condition(2)
                     case 4:
-                        lab[0][0] = -2
+                        lab.set_condition(3)
                     case 5:
-                        lab[self.position[0]][self.position[1]] = 0
-                        self.position = au.random_position(lab)
-                        lab[self.position[0]][self.position[1]] = 3
-        return lab
-
+                        lab.redact(self.position, 0)
+                        self.position = au.random_position(lab.get_config())
+                        lab.redact(self.position, 3)
