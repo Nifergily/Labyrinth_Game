@@ -64,7 +64,8 @@ class Shadow:
                 self.position = pos
                 lab.redact(self.position, 2)
             case 3:
-                lab.set_condition(2)
+                if lab.get_condition() == 1:
+                    lab.set_condition(2)
             case 5:
                 lab.redact(self.position, 0)
                 self.position = lab.random_position()
