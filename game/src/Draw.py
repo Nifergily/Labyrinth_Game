@@ -96,3 +96,11 @@ def default_draw(lab, scale, screen, position):
     draw(lab, scale, screen, position[0] - 1, position[1] - 1)
     draw(lab, scale, screen, position[0] - 1, position[1])
     draw(lab, scale, screen, position[0] - 1, position[1] + 1)
+
+
+def draw_menu(screen, menu_vertical, difficulty):
+    screen.blit(pg.font.Font(None, 72).render('Играть', True, (180, 0, 0)), (280, 350))
+    screen.blit(pg.font.Font(None, 72).render('Сложность:', True, (180, 0, 0)), (280, 450))
+    screen.blit(pg.font.Font(None, 72).render(str(difficulty), True, (180, 0, 0)), (580, 450))
+    screen.blit(pg.font.Font(None, 72).render('Выйти', True, (180, 0, 0)), (280, 550))
+    pg.draw.line(screen, floor_colour, (280, 304 + 100 * menu_vertical), (630 - 190 * (menu_vertical % 2), 304 + 100 * menu_vertical), 6)
