@@ -68,7 +68,7 @@ class Shadow:
             case 5:
                 lab.redact(self.position, 0)
                 self.position = lab.random_position()
-                lab.redact(self.position, 3)
+                lab.redact(self.position, 2)
             case _:
                 self.random_direction()
 

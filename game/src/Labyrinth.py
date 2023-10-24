@@ -5,6 +5,7 @@ class Labyrinth:
     __config = None
     __size = None
     __condition = None
+    __doors = None
 
     def __init__(self):
         self.condition = 0
@@ -53,6 +54,8 @@ class Labyrinth:
             [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
         ]
         self.size = len(self.config)
+        self.doors = []
+        self.create_doors()
 
     def get_config(self):
         return self.config
@@ -80,8 +83,8 @@ class Labyrinth:
             pos = [random.randint(1, self.size - 2), random.randint(1, self.size - 2)]
             flag = True
             if self.config[pos[0]][pos[1]] == 0:
-                for i in range(pos[0] - 1, pos[0] + 1):
-                    for j in range(pos[1] - 1, pos[1] + 1):
+                for i in range(pos[0] - 1, pos[0] + 2):
+                    for j in range(pos[1] - 1, pos[1] + 2):
                         if self.config[i][j] != 0 and self.config[i][j] != 1:
                             flag = False
                             break
@@ -90,3 +93,46 @@ class Labyrinth:
 
                 if flag:
                     return pos
+
+    def create_doors(self):
+        for i in range(32):
+            while True:
+                pos = [random.randint(1, self.size - 3), random.randint(1, self.size - 3)]
+                if self.config[pos[0]][pos[1]] == 0:
+                    if self.config[pos[0] + 1][pos[1]] == 0 and self.config[pos[0] + 2][pos[1]] == 0 and self.config[pos[0] - 1][pos[1]] == 0 and self.config[pos[0] - 2][pos[1]] == 0:
+                        if self.config[pos[0]][pos[1] - 1] == 1 and self.config[pos[0]][pos[1] + 1] == 1:
+                            self.doors.append(pos)
+                            break
+                    elif self.config[pos[0]][pos[1] + 1] == 0 and self.config[pos[0]][pos[1] + 2] == 0 and self.config[pos[0]][pos[1] - 1] == 0 and self.config[pos[0]][pos[1] - 2] == 0:
+                        if self.config[pos[0] - 1][pos[1]] == 1 and self.config[pos[0] + 1][pos[1]] == 1:
+                            self.doors.append(pos)
+                            break
+
+            while True:
+                pos = [random.randint(1, self.size - 3), random.randint(1, self.size - 3)]
+                if self.config[pos[0]][pos[1]] == 1:
+                    if self.config[pos[0] + 1][pos[1]] == 1 and self.config[pos[0] + 2][pos[1]] == 1 and self.config[pos[0] - 1][pos[1]] == 1 and self.config[pos[0] - 2][pos[1]] == 1:
+                        if self.config[pos[0]][pos[1] - 1] == 0 and self.config[pos[0]][pos[1] + 1] == 0:
+                            self.doors.append(pos)
+                            break
+                    elif self.config[pos[0]][pos[1] + 1] == 1 and self.config[pos[0]][pos[1] + 2] == 1 and self.config[pos[0]][pos[1] - 1] == 1 and self.config[pos[0]][pos[1] - 2] == 1:
+                        if self.config[pos[0] - 1][pos[1]] == 0 and self.config[pos[0] + 1][pos[1]] == 0:
+                            self.doors.append(pos)
+                            break
+
+    def rebuild(self):
+        random.shuffle(self.doors)
+        for counter, door in enumerate(self.doors):
+            if counter % 2 == 0:
+                if self.config[door[0]][door[1]] == 0:
+                    self.config[door[0]][door[1]] = 1
+                elif self.config[door[0]][door[1]] == 1:
+                    self.config[door[0]][door[1]] = 0
+
+        for i in range(self.size):
+            for j in range(self.size):
+                if self.config[i][j] == 5:
+                    self.config[i][j] = 0
+
+        for i in range(8):
+            self.redact(self.random_position(), 5)

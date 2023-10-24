@@ -13,6 +13,7 @@ def main():
     debug = False
     shadows = None
     player = None
+    turns = None
     menu_vertical = 1
     difficulty = 8
     scale = 20
@@ -46,11 +47,15 @@ def main():
                                     difficulty += 1
                             case pg.K_RETURN:
                                 if menu_vertical == 1:
+                                    debug = False
+
                                     lab = lb()
                                     lab.set_condition(1)
                                     lab.redact(lab.random_position(), 4)
 
-                                    for i in range(5):
+                                    turns = 0
+
+                                    for i in range(8):
                                         lab.redact(lab.random_position(), 5)
 
                                     player = sk(lab)
@@ -85,6 +90,9 @@ def main():
                         for shadow in shadows:
                             shadow.think(lab.get_config(), player.get_position())
                             shadow.move(lab)
+                        turns += 1
+                        if turns % (48 - 16 * (difficulty // 8)) == 0:
+                            lab.rebuild()
 
                 if debug:
                     dr.debug_draw(lab.get_config(), scale, screen)
@@ -93,9 +101,9 @@ def main():
 
             case _:
                 if lab.get_condition() == 2:
-                    screen.blit(pg.font.Font(None, 72).render('Поражение', True, (180, 0, 0)), (280, 350))
+                    screen.blit(pg.font.Font(None, 64).render('Поражение! Ходов сделано: ' + str(turns), True, (180, 0, 0)), (60, 350))
                 else:
-                    screen.blit(pg.font.Font(None, 72).render('Победа', True, (180, 0, 0)), (285, 350))
+                    screen.blit(pg.font.Font(None, 64).render('Победа! Ходов сделано: ' + str(turns), True, (180, 0, 0)), (60, 350))
 
                 for event in events:
                     if event.type == pg.QUIT:
